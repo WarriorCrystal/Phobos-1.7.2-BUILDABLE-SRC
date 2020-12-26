@@ -46,7 +46,6 @@ import me.earth.phobos.features.modules.combat.Selftrap;
 import me.earth.phobos.features.modules.combat.Surround;
 import me.earth.phobos.features.modules.combat.Webaura;
 import me.earth.phobos.features.modules.misc.AntiPackets;
-import me.earth.phobos.features.modules.misc.AntiVanish;
 import me.earth.phobos.features.modules.misc.AutoGG;
 import me.earth.phobos.features.modules.misc.AutoLog;
 import me.earth.phobos.features.modules.misc.AutoReconnect;
@@ -181,7 +180,6 @@ extends Feature {
         this.modules.add(new KitDelete());
         this.modules.add(new Exploits());
         this.modules.add(new Spammer());
-        this.modules.add(new AntiVanish());
         this.modules.add(new ExtraTab());
         this.modules.add(new MobOwner());
         this.modules.add(new Nuker());
