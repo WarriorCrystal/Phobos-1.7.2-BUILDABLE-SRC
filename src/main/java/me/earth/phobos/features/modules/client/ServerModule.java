@@ -21,7 +21,7 @@ public class ServerModule
 extends Module {
     public Setting<String> ip = this.register(new Setting<String>("PhobosIP", "0.0.0.0.0"));
     public Setting<String> port = this.register(new Setting<String>("Port", "0").setRenderName(true));
-    public Setting<String> serverIP = this.register(new Setting<String>("ServerIP", "AnarchyHvH.eu"));
+    public Setting<String> serverIP = this.register(new Setting<String>("ServerIP", "2b2tpvp.net"));
     public Setting<Boolean> noFML = this.register(new Setting<Boolean>("RemoveFML", false));
     public Setting<Boolean> getName = this.register(new Setting<Boolean>("GetName", false));
     public Setting<Boolean> average = this.register(new Setting<Boolean>("Average", false));
